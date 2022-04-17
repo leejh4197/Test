@@ -23,13 +23,11 @@ export const ToggleBtn = styled.div`
   color: #bbb;
   font-weight: bold;
   font-size: 22px;
-
   border-radius: 50px;
   z-index: 1;
 `;
 export const ToggleRadio = styled.input`
   display: none;
-
   &:checked + label {
     color: #000;
   }
@@ -39,7 +37,6 @@ export const ToggleLabel = styled.label`
   display: block;
   width: 100%;
   height: 100%;
-
   border-radius: 50px;
   *background: #ff0000;
 `;
@@ -47,7 +44,6 @@ export const ToggleLabel = styled.label`
 export const ToggleSlider = styled.div`
   position: absolute;
   top: 5px;
-
   ${({ locate }) => css`
     left: ${locate};
   `}
@@ -57,7 +53,6 @@ export const ToggleSlider = styled.div`
   color: #000;
   font-weight: bold;
   font-size: 22px;
-
   border-radius: 50px;
   background: #fff;
   opacity: 0.8;
