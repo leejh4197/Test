@@ -1,20 +1,24 @@
 import './App.css';
-import Toggle from './Test/Toggle';
-import Tab from './Test/Tab';
-import Slider from './Test/Slider';
-import Input from './Test/Input';
-import Dropdown from './Test/Dropdown';
-import Test1 from './Test/Test1'
+import Toggle from './components/Toggle/Toggle';
+import Tab from './components/Tab/Tab';
+import Slider from './components/Slider/Slider';
+import Input from './components/Input/Input';
+import Dropdown from './components/Dropdown/Dropdown';
+
 
 
 function App() {
   return (
     <div className="App">
+      <h1>Toggle</h1>
       <Toggle/>
-      <Test1/>
+      <h1>Tab</h1>
       <Tab/>
+      <h1>Slider</h1>
       <Slider/>
+      <h1>Input</h1>
       <Input/>
+      <h1>Dropdown</h1>
       <Dropdown/>
     </div>
   );

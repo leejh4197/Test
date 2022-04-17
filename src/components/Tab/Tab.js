@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const Tab = () => {
     return(
         <Wrap>
-            <h1>Tap</h1>
         </Wrap>
     )
 }
