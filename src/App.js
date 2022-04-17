@@ -5,7 +5,6 @@ import Slider from './Test/Slider';
 import Input from './Test/Input';
 import Dropdown from './Test/Dropdown';
 import Test1 from './Test/Test1'
-import Test2 from './Test/Test2'
 
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
     <div className="App">
       <Toggle/>
       <Test1/>
-      <Test2/>
       <Tab/>
       <Slider/>
       <Input/>
