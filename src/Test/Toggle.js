@@ -25,12 +25,14 @@ const Wrap = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 50%;
-    height: 70px;
-    background-color: #E0E0E0;
+    height: 45px;
+    background-color: #EBEBEB;
     border-radius:50px;
     margin: 0 auto;
+    padding: 5px;
     .show-basic{
-        background-color: #E0E0E0;
+        color: #9D9D9D;
+        background-color: #EBEBEB;
         border-radius: 50px;
         width: 50%;
         height: 80%;
@@ -50,16 +52,17 @@ const Wrap = styled.div`
     .show-detail{
         background-color: white;
         border-radius: 50px;
-        width: 50%;
+        width: 45%;
         height: 80%;
         font-size: 24px;
         font-weight: bold;
         cursor:pointer;
     }
     .hide-detail{
-        background-color: #E0E0E0;
+        color: #9D9D9D;
+        background-color: #EBEBEB;
         border-radius: 50px;
-        width: 50%;
+        width: 45%;
         height: 80%;
         font-size: 24px;
         font-weight: bold;
