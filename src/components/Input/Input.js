@@ -36,12 +36,12 @@ const Input = () => {
                     {password?(
                         <>
                         <input type="password" placeholder="Password" className='password'/>
-                                <ImEyeBlocked className='password-check-icon' onClick={checkPassword}/>
+                                <ImEye className='password-check-icon' onClick={checkPassword}/>
                         </>
                     ):(
                         <>
                         <input type="" placeholder="Password" className='password'/>
-                                <ImEye className='password-check-icons' onClick={checkPassword}/>
+                                <ImEyeBlocked className='password-check-icons' onClick={checkPassword}/>
                         </>
                     )}
                 </div>
